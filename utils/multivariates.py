@@ -69,7 +69,12 @@ def eq_bit_decomp(PolyRing : PolynomialRing, index : int, poly_gens : List[Any] 
 
 def hadamard_product(vec1, vec2):
     assert len(vec1) == len(vec2)
-    return [a*b for (a,b) in zip(vec1, vec2)]
+    value = [a*b for (a,b) in zip(vec1, vec2)]
+
+    if not isinstance(vec1, (list)) or not isinstance(vec2, (list)):
+        value = vector(value)
+
+    return value
 
 def hypercube_sum(poly : Polynomial, skip_variables = [], hypercube = [0,1]):
     sc_val = poly
@@ -89,22 +94,74 @@ def hypercube_sum(poly : Polynomial, skip_variables = [], hypercube = [0,1]):
 
     return sc_val
 
+def matrix_multilinearize(mat : Matrix, PolyRing : PolynomialRing = None) -> Polynomial:
+    ncols_bitlen = Integer(mat.ncols()).bit_length();
+    nrows_bitlen = Integer(mat.nrows()).bit_length()
+    row_vars = [f"X{i}" for i in range(nrows_bitlen)]
+    col_vars = [f"Y{i}" for i in range(ncols_bitlen)]
+    names = row_vars + col_vars
+    var_count = ncols_bitlen + nrows_bitlen
+    PolyRing = PolyRing or PolynomialRing(mat.base_ring(), var_count, names)
+    x_vars = list(PolyRing.gens()[:nrows_bitlen])
+    y_vars = list(PolyRing.gens()[nrows_bitlen:])
+
+    poly = PolyRing(0)
+
+    x_lagrange_basis = [eq_bit_decomp(PolyRing, i, x_vars) for i in range(2**nrows_bitlen)]
+    y_lagrange_basis = [eq_bit_decomp(PolyRing, j, y_vars) for j in range(2**ncols_bitlen)]
+
+    # print(f"X-Lagrange: {x_lagrange_basis}")
+    # print(f"Y-Lagrange: {y_lagrange_basis}")
+
+    for i in range(mat.nrows()):
+        for j in range(mat.ncols()):
+            poly += mat[i][j] * x_lagrange_basis[i] * y_lagrange_basis[j]
+
+    return poly
+
+
+def vec_multilinearize(vec : List[Any], gens : List[Any]) -> Polynomial:
+    assert len(vec) <= 2**len(gens)
+    PolyRing = gens[0].parent()
+    result = PolyRing(0)
+
+    for (i,v) in enumerate(vec):
+        basis = eq_bit_decomp(PolyRing, i, gens)
+        result += v*basis
+    return result
+
 if __name__ == '__main__':
     from sage.rings.finite_rings.all import GF
 
     Fp = GF(2**31 - 1)
-    R = PolynomialRing(Fp, ["X", "Y", "Z", "W"])
-    gens = R.gens()
-    max_index = 2**len(gens)
 
-    for i in range(max_index):
-        p = eq_bit_decomp(R, i)
+    def test_eq_bit_decomp():
+        R = PolynomialRing(Fp, ["X", "Y", "Z", "W"])
+        gens = R.gens()
+        max_index = 2**len(gens)
 
-        for j in range(max_index):
-            decompo = bit_decomp_dict(j, gens)
-            expected = p.subs(decompo)
+        for i in range(max_index):
+            p = eq_bit_decomp(R, i)
 
-            if i == j:
-                assert expected == 1
-            else:
-                assert expected == 0
+            for j in range(max_index):
+                decompo = bit_decomp_dict(j, gens)
+                expected = p.subs(decompo)
+
+                if i == j:
+                    assert expected == 1
+                else:
+                    assert expected == 0
+
+    def test_matrix_multilinearize():
+        m = Matrix(Fp, [[7,2,2],[2,3,4],[3,1,1],[7,4,5],[8,8,4]])
+        x1 = matrix_multilinearize(m)
+        x2 = matrix_multilinearize(m, x1.parent())
+        assert x1 == x2
+
+    def main():
+        test_matrix_multilinearize()
+        test_eq_bit_decomp()
+        print(f"All good")
+
+    main()
+
