@@ -9,3 +9,10 @@ You must have [SageMath](https://www.sagemath.org/) installed and available on y
 $ soure ./venv/bin/activate
 $ pip install --upgrade pip && pip install -r requirements.txt
 ```
+
+## Proof Systems
+
+The following Jupyter notebooks provide detailed information about each of the supported proof systems:
+
+1. [Spartan](./spartan.ipynb)
+
