@@ -4,5 +4,8 @@
     },
     "terminal.integrated.env.linux": {
         "PYTHONPATH" : "${workspaceFolder}"
-    }
+    },
+    "cSpell.words": [
+        "Sumcheck"
+    ]
 }
