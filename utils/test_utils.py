@@ -3,12 +3,14 @@ from sage.modules.all import vector, random_vector
 from sage.misc.functional import log
 from sage.misc.prandom import random
 from sage.matrix.all import Matrix, random_matrix
+from sage.rings.polynomial.all import PolynomialRing, Polynomial
 from typing import List
+from sage.rings.integer import Integer
 
 try:
-    import multivariates as utils
+    import multivariates as mvar
 except:
-    from . import multivariates as utils
+    from . import multivariates as mvar
 
 
 class R1CS:
@@ -45,7 +47,7 @@ class R1CS:
             C = random_matrix(Fq, num_rows, num_columns)
             return klass(A, B, C, witness)
 
-        expected_product = utils.hadamard_product(A*witness, B*witness)
+        expected_product = mvar.hadamard_product(A*witness, B*witness)
         c_temp = []
 
         for i in range(num_rows):
@@ -80,14 +82,57 @@ class R1CS:
         self.B = B
         self.C = C
         self.w = vector(w)
-        assert utils.hadamard_product(self.A*self.w, self.B*self.w) == self.C*self.w
+        assert A.base_ring() == B.base_ring()
+        assert A.base_ring() == C.base_ring()
+        assert A.base_ring() == w.base_ring()
+
+        assert A.nrows() == B.nrows()
+        assert A.nrows() == C.nrows()
+
+        assert A.ncols() == B.ncols()
+        assert A.ncols() == C.ncols()
+        assert A.ncols() == w.length()
+
+        assert mvar.hadamard_product(self.A*self.w, self.B*self.w) == self.C*self.w
+        self._Axy = mvar.matrix_multilinearize(self.A)
+        self.PolyRing = self._Axy.parent()
+        self._Bxy = mvar.matrix_multilinearize(self.B, self.PolyRing)
+        self._Cxy = mvar.matrix_multilinearize(self.C, self.PolyRing)
+
+        row_vars_count = Integer(A.nrows()).bit_length();
+        col_vars_count = Integer(A.ncols()).bit_length();
+        var_gens = self.PolyRing.gens()
+        self._y_vars = var_gens[row_vars_count:]
+        self._x_vars = var_gens[:row_vars_count]
+
+        assert len(self._y_vars) == col_vars_count
+        assert len(self._x_vars) == row_vars_count
+        self._wy = mvar.vec_multilinearize(self.w, self._y_vars)
 
     def is_satisfiable(self) -> bool:
-        return vector(utils.hadamard_product(self.A*self.w, self.B*self.w)) == self.C*self.w
+        return vector(mvar.hadamard_product(self.A*self.w, self.B*self.w)) == self.C*self.w
 
     def __repr__(self) -> str:
         marker = lambda v, M : f"\n========= {v} =========\n\n{M}\n"
         return f"{marker("A", self.A)}{marker("B", self.B)}{marker("C", self.C)}{marker("W", self.w)}"
+
+    def a_tilde(self) -> Polynomial:
+        return self._Axy
+
+    def b_tilde(self) -> Polynomial:
+        return self._Bxy
+
+    def c_tilde(self) -> Polynomial:
+        return self._Cxy
+
+    def w_tilde(self) -> Polynomial:
+        return self._wy
+
+    def x_vars(self):
+        return self._x_vars
+
+    def y_vars(self):
+        return self._y_vars
 
 
 

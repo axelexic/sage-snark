@@ -6,6 +6,9 @@
         "PYTHONPATH" : "${workspaceFolder}"
     },
     "cSpell.words": [
+        "Arithmetization",
+        "multilinear",
+        "Sagemath",
         "Sumcheck"
     ]
 }
