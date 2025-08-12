@@ -7,8 +7,26 @@
     },
     "cSpell.words": [
         "Arithmetization",
+        "arithmetized",
+        "linearize",
+        "linearizing",
+        "linearized",
         "multilinear",
         "Sagemath",
-        "Sumcheck"
+        "Sumcheck",
+        "vec",
+        "centernot",
+        "mathcal",
+        "mathbb",
+        "stackrel",
+        "textsf",
+        "sublinear",
+        "arithmetize",
+        "Karp",
+        "polylog",
+        "polylogarithmic",
+        "Shamir",
+        "Hadamard",
+        "widetilde"
     ]
 }

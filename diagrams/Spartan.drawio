@@ -1,11 +1,14 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4" pages="3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="2">
   <diagram name="Attempt-0" id="WoYvsUXWSy7ugM0f-xKV">
-    <mxGraphModel dx="1241" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1002" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CJ0ROlIYcFU5xY0U0SuB-3" value="" style="group;fillColor=none;strokeColor=#d6b656;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="198" y="470" width="190" height="60" as="geometry" />
+        <mxCell id="3fu-qyVXcetd2TKmaoic-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEFFF2;strokeColor=#FF8000;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="10" y="60" width="560" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="CJ0ROlIYcFU5xY0U0SuB-3" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="198" y="350" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-16" value="Last round claim:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CJ0ROlIYcFU5xY0U0SuB-3" vertex="1">
           <mxGeometry width="186.08247422680412" height="32" as="geometry" />
@@ -13,61 +16,61 @@
         <mxCell id="I9AF0-q7E1JXgWRJMakP-22" value="$$\mathcal{G}({\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}}) \stackrel{?}{=} \hat{f}({\color{blue}\vec{r}_{\Sigma}})\cdot \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CJ0ROlIYcFU5xY0U0SuB-3" vertex="1">
           <mxGeometry x="3.917525773195876" y="20" width="186.08247422680412" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CJ0ROlIYcFU5xY0U0SuB-2" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=none;dashed=1;dashPattern=8 8;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="20" y="390" width="540" height="80" as="geometry" />
+        <mxCell id="CJ0ROlIYcFU5xY0U0SuB-2" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;shadow=1;dashPattern=1 2;fillColor=#F6F6F6;" parent="1" vertex="1">
+          <mxGeometry x="20" y="270" width="540" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-36" value="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;Polynomial Commitment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;strokeColor=none;fillColor=#f9f7ed;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="21" y="530" width="540" height="140" as="geometry" />
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-36" value="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;Polynomial Commitment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;verticalAlign=bottom;shadow=1;fillColor=#F6F6F6;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="21" y="410" width="540" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-gVTjouxMcEWC6L72Cyj-7" value="$$F, \pi$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="204.74" y="572" width="180" height="22" as="geometry" />
+          <mxGeometry x="204.74" y="452" width="180" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="UFslY8KcreYi-pdSRXT3-1" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;" parent="1" edge="1">
+        <mxCell id="UFslY8KcreYi-pdSRXT3-1" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;shadow=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196" y="690" as="sourcePoint" />
-            <mxPoint x="196" y="321" as="targetPoint" />
+            <mxPoint x="196" y="520" as="sourcePoint" />
+            <mxPoint x="196" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UFslY8KcreYi-pdSRXT3-2" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;" parent="1" edge="1">
+        <mxCell id="UFslY8KcreYi-pdSRXT3-2" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;flowAnimation=0;shadow=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="690" as="sourcePoint" />
-            <mxPoint x="390" y="321" as="targetPoint" />
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="390" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UFslY8KcreYi-pdSRXT3-3" value="$$\mathcal{P}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="164.74" y="291" width="60" height="30" as="geometry" />
+          <mxGeometry x="164.74" y="171" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UFslY8KcreYi-pdSRXT3-4" value="$$\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="361.74" y="291" width="60" height="30" as="geometry" />
+          <mxGeometry x="361.74" y="171" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-gVTjouxMcEWC6L72Cyj-1" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196.74" y="594" as="sourcePoint" />
-            <mxPoint x="389.74" y="594" as="targetPoint" />
+            <mxPoint x="196.74" y="474" as="sourcePoint" />
+            <mxPoint x="389.74" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-2" value="&lt;font&gt;Claim: &lt;font style=&quot;font-size: 16px;&quot;&gt;$$\forall \vec{\tau} \in \mathbb{F}^s : \mathcal{Q}(\vec{\tau}) = 0$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="191" y="200" width="200" height="70" as="geometry" />
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-2" value="&lt;font&gt;Claim: &lt;font style=&quot;font-size: 16px;&quot;&gt;$$\forall \vec{\tau} \in \mathbb{F}^s : \mathcal{Q}(\vec{\tau}) = 0$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="191" y="80" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-3" value="$$\vec{r}_{\tau} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="399.74" y="341" width="68.5" height="30" as="geometry" />
+          <mxGeometry x="399.74" y="221" width="68.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="197.24" y="372" as="sourcePoint" />
-            <mxPoint x="390.24" y="372" as="targetPoint" />
+            <mxPoint x="197.24" y="252" as="sourcePoint" />
+            <mxPoint x="390.24" y="252" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-6" value="$$\vec{r}_\tau$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;" parent="1" vertex="1">
-          <mxGeometry x="203.74" y="351" width="180" height="21" as="geometry" />
+          <mxGeometry x="203.74" y="231" width="180" height="21" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-7" value="&lt;u&gt;Sumcheck Claim&lt;/u&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$0 = \sum_{\vec{x} \in \{ 0,1\}^s} \mathcal{G}(\vec{x}, {\color{Magenta} \vec{r}_\tau})$$&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="73.74" y="401" width="119.5" height="70" as="geometry" />
+          <mxGeometry x="73.74" y="281" width="119.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;width=15;" parent="1" edge="1">
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;width=15;shadow=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="193.24" y="431.71" as="sourcePoint" />
-            <mxPoint x="393.24" y="431.71" as="targetPoint" />
+            <mxPoint x="193.24" y="311.71" as="sourcePoint" />
+            <mxPoint x="393.24" y="311.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-14" value="Sumcheck" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="I9AF0-q7E1JXgWRJMakP-11" vertex="1" connectable="0">
@@ -76,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-24" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="390.24" y="390" width="140" height="48" as="geometry" />
+          <mxGeometry x="390.24" y="270" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-17" value="&lt;u style=&quot;&quot;&gt;Sumcheck randomness:&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="I9AF0-q7E1JXgWRJMakP-24" vertex="1">
           <mxGeometry width="140" height="32" as="geometry" />
@@ -85,220 +88,75 @@
           <mxGeometry x="10.5" y="26" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-25" value="$$\textsf{eval}(\hat{f}, {\color{blue}\vec{r}_\Sigma})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="204.74" y="533" width="180" height="30" as="geometry" />
+          <mxGeometry x="204.74" y="413" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-26" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196.74" y="563" as="sourcePoint" />
-            <mxPoint x="389.74" y="563" as="targetPoint" />
+            <mxPoint x="196.74" y="443" as="sourcePoint" />
+            <mxPoint x="389.74" y="443" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-27" value="$$\textsf{commit}(\hat{f})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="204.74" y="321" width="180" height="20" as="geometry" />
+          <mxGeometry x="204.74" y="201" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-28" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196.74" y="341" as="sourcePoint" />
-            <mxPoint x="389.74" y="341" as="targetPoint" />
+            <mxPoint x="196.74" y="221" as="sourcePoint" />
+            <mxPoint x="389.74" y="221" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-29" value="$$F = \hat{f}({\color{blue}\vec{r}_\Sigma})$$" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="53.74" y="552" width="140" height="30" as="geometry" />
+          <mxGeometry x="53.74" y="432" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-30" value="$$\pi = \textsf{proof}(\hat{f}({\color{blue}\vec{r}_\Sigma}) = F)$$" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="53.74" y="572" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-40" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="394.74" y="543" width="143.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-37" value="Evaluate" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I9AF0-q7E1JXgWRJMakP-40" vertex="1">
-          <mxGeometry width="59" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-39" value="$$\hat{f}({\color{blue}\vec{r}_\Sigma}), \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I9AF0-q7E1JXgWRJMakP-40" vertex="1">
-          <mxGeometry x="54.5" width="89" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-41" value="Spartan Attempt-0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#0000CC;" parent="1" vertex="1">
-          <mxGeometry x="206" y="680" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FJJ9JO8oYwJ7LWFGz_04-1" value="" style="group;glass=0;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="29" width="400" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="-gVTjouxMcEWC6L72Cyj-3" value="$$\overline{A}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{A}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-gVTjouxMcEWC6L72Cyj-4" value="$$\overline{B}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{B}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry y="59" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-gVTjouxMcEWC6L72Cyj-5" value="$$\overline{C}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{C}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry y="118" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-gVTjouxMcEWC6L72Cyj-6" value="$$\hat{f}(\vec{x}) := \overline{A}(\vec{x})\cdot \overline{B}(\vec{x}) - \overline{C}(\vec{x})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry x="206.5" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-1" value="$$\mathcal{Q}(\vec{\tau}) := \sum_{\vec{x} \in \{0,1\}^s}\hat{f}(\vec{x})\cdot \mathsf{eq}(\vec{x},\vec{\tau})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry x="206.5" y="118" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-4" value="$$\mathcal{G}(\vec{x}, \vec{\tau}) := \hat{f}(\vec{x})\cdot \mathsf{eq}(\vec{x}, \vec{\tau})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="FJJ9JO8oYwJ7LWFGz_04-1" vertex="1">
-          <mxGeometry x="206.5" y="59" width="190" height="40" as="geometry" />
+          <mxGeometry x="53.74" y="452" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-32" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;Validate&lt;/i&gt;&lt;/u&gt;:&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="394.74" y="582" width="108" height="30" as="geometry" />
+          <mxGeometry x="399.74" y="430" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I9AF0-q7E1JXgWRJMakP-33" value="$$\mathcal{G}({\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}}) \stackrel{?}{=} F\cdot \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="399.74" y="631" width="153" height="30" as="geometry" />
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-33" value="$$\textsf{accept}\;\text{if}:\;\;\mathcal{G}({\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}}) = F\cdot E $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="540" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I9AF0-q7E1JXgWRJMakP-34" value="$$\pi \stackrel{?}{=}&amp;nbsp;\textsf{proof}(\hat{f}({\color{blue}\vec{r}_\Sigma}) = F)$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="399.74" y="602" width="153" height="30" as="geometry" />
+          <mxGeometry x="400" y="460" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-37" value="Locally evaluate" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="204.74" y="500" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I9AF0-q7E1JXgWRJMakP-39" value="$$E = \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="294.74" y="500" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3fu-qyVXcetd2TKmaoic-2" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;Validate&lt;/i&gt;&lt;/u&gt;:&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="253.74" y="520" width="66.26" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Spartan Full SCHK-1" id="rjtXxX2ka-RKpqMVSbxH">
-    <mxGraphModel dx="1241" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="1" shadow="0">
-      <root>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-0" />
-        <mxCell id="p60Xmd30TXR5qsm38_R6-1" parent="p60Xmd30TXR5qsm38_R6-0" />
-        <mxCell id="p60Xmd30TXR5qsm38_R6-13" value="$$\vec{r}_\tau$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="170" y="400" width="160" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-10" value="&lt;font&gt;Claim: &lt;font style=&quot;font-size: 16px;&quot;&gt;$$\forall \vec{\tau} \in \mathbb{F}^s : \mathcal{Q}(\vec{\tau}) = 0$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="150" y="210" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-30" value="" style="group;glass=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1" connectable="0">
-          <mxGeometry x="50" y="20" width="400" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-31" value="$$\overline{A}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{A}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-32" value="$$\overline{B}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{B}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry y="59" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-33" value="$$\overline{C}(\vec{x}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{C}(\vec{x}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry y="118" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-34" value="$$\hat{f}(\vec{x}) := \overline{A}(\vec{x})\cdot \overline{B}(\vec{x}) - \overline{C}(\vec{x})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry x="206.5" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-35" value="$$\mathcal{Q}(\vec{\tau}) := \sum_{\vec{x} \in \{0,1\}^s}\hat{f}(\vec{x})\cdot \mathsf{eq}(\vec{x},\vec{\tau})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry x="206.5" y="118" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-36" value="$$\mathcal{G}(\vec{x}, \vec{\tau}) := \hat{f}(\vec{x})\cdot \mathsf{eq}(\vec{x}, \vec{\tau})$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=1;" parent="p60Xmd30TXR5qsm38_R6-30" vertex="1">
-          <mxGeometry x="206.5" y="59" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-2" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=none;dashed=1;dashPattern=8 8;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="10" y="439" width="480" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-11" value="$$\vec{r}_{\tau} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;fontSize=14;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="338" y="379" width="68.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="p60Xmd30TXR5qsm38_R6-1" target="p60Xmd30TXR5qsm38_R6-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="167.24" y="421" as="sourcePoint" />
-            <mxPoint x="360.24" y="421" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-14" value="&lt;u&gt;Sumcheck Claim&lt;/u&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$0 = \sum_{\vec{x} \in \{ 0,1\}^s} \mathcal{G}(\vec{x}, {\color{Magenta} \vec{r}_\tau})$$&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="43.739999999999995" y="450" width="119.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-15" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;width=15;" parent="p60Xmd30TXR5qsm38_R6-1" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="166.24" y="478.73999999999995" as="sourcePoint" />
-            <mxPoint x="333" y="479" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-16" value="Sumcheck-1" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="p60Xmd30TXR5qsm38_R6-15" vertex="1" connectable="0">
-          <mxGeometry x="0.2776" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-17" value="" style="group" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1" connectable="0">
-          <mxGeometry x="331.74" y="439" width="140" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-18" value="&lt;u style=&quot;&quot;&gt;Sumcheck randomness&lt;/u&gt;:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="p60Xmd30TXR5qsm38_R6-17" vertex="1">
-          <mxGeometry width="140" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-19" value="$$\vec{r}_{\Sigma} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontSize=14;fontColor=#0000FF;" parent="p60Xmd30TXR5qsm38_R6-17" vertex="1">
-          <mxGeometry x="10.5" y="26" width="70" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-22" value="$$\textsf{commit}(\widetilde{A}, \widetilde{B},&amp;nbsp;\widetilde{C}, {\color{red}{\widetilde{w}}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="170" y="369" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-23" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="p60Xmd30TXR5qsm38_R6-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="166.74" y="390" as="sourcePoint" />
-            <mxPoint x="330" y="389" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kX7luF8bjxCQhLDdQbnl-5" value="Compute:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="22" y="548" width="59" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qAqmjt0YYhJfKLTL2a6g-0" value="$$\begin{aligned}v_A &amp;amp;= \overline{A}({\color{blue}\vec{r}_\Sigma})\\ v_B &amp;amp;= \overline{B}({\color{blue}\vec{r}_\Sigma})\\v_C &amp;amp;= \overline{C}({\color{blue}\vec{r}_\Sigma})&amp;nbsp;\end{aligned}$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="81" y="528" width="81" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="kX7luF8bjxCQhLDdQbnl-2" value="$$v_{A},v_{B},v_{C}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="167.68" y="548" width="162.32" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kX7luF8bjxCQhLDdQbnl-3" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="p60Xmd30TXR5qsm38_R6-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="164.31" y="568" as="sourcePoint" />
-            <mxPoint x="330" y="568" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-41" value="&lt;u&gt;&lt;b&gt;Last round check&lt;/b&gt;&lt;/u&gt;:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="334.74" y="528" width="148.26" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-42" value="$$\mathcal{G}({\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}}) \stackrel{?}{=} (v_A \cdot v_B - v_C)\cdot \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1">
-          <mxGeometry x="331.74" y="548" width="238.26" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hbN_11p-Y_DbR1XOrDFj-0" value="" style="group" parent="p60Xmd30TXR5qsm38_R6-1" vertex="1" connectable="0">
-          <mxGeometry x="134.74" y="340" width="227" height="298" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-5" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;" parent="hbN_11p-Y_DbR1XOrDFj-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="31.25999999999999" y="298" as="sourcePoint" />
-            <mxPoint x="31.25999999999999" y="30" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-6" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;" parent="hbN_11p-Y_DbR1XOrDFj-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="197" y="298" as="sourcePoint" />
-            <mxPoint x="197" y="30.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-7" value="$$\mathcal{P}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="hbN_11p-Y_DbR1XOrDFj-0" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="p60Xmd30TXR5qsm38_R6-8" value="$$\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="hbN_11p-Y_DbR1XOrDFj-0" vertex="1">
-          <mxGeometry x="167" width="60" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Spartan Full SCHK-2" id="qmBoXcdNk34LtX72JFcD">
-    <mxGraphModel dx="671" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="1" shadow="0">
+  <diagram name="Spartan Full" id="qmBoXcdNk34LtX72JFcD">
+    <mxGraphModel dx="1002" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="1" shadow="0">
       <root>
         <mxCell id="oSFA6BFc6vbs22aihNRj-0" />
         <mxCell id="oSFA6BFc6vbs22aihNRj-1" parent="oSFA6BFc6vbs22aihNRj-0" />
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;gradientColor=#ffd966;gradientDirection=south;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="26" y="690" width="524" height="110" as="geometry" />
+        <mxCell id="YUmbKbq9Ho_XBp1DLhHi-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEFFF2;strokeColor=#FF8000;strokeWidth=3;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="32" y="220" width="520" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="uZxVogzGvGEyPYxT3dh9-0" value="$$\textsf{eval}(\widetilde{A}, \widetilde{B}, \widetilde{C}, {\color{red}\widetilde{w}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="188.58" y="695" width="139.63" height="20" as="geometry" />
+        <mxCell id="RDw4yG_MpPgdLXXt63db-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEFFF2;strokeColor=#FF8000;strokeWidth=3;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="30" y="-398" width="520" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-0" value="$$\textsf{points}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="189.76000000000002" y="715" width="139.63" height="20" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-7" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=south;dashed=1;dashPattern=1 2;fillColor=#F6F6F6;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="53" y="605" width="477" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-17" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=none;dashed=1;dashPattern=8 8;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="29.97" y="541" width="460.03" height="70" as="geometry" />
+        <mxCell id="uZxVogzGvGEyPYxT3dh9-0" value="$$\textsf{eval}(\widetilde{A}, \widetilde{B}, \widetilde{C}, {\color{red}\widetilde{w}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="215.71" y="610" width="139.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-23" value="&lt;u style=&quot;&quot;&gt;Batching randomness&lt;/u&gt;:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="335.74" y="477" width="130.36" height="22" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-0" value="$$\textsf{points}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="216.89000000000001" y="630" width="139.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-24" value="$$r_{A}, r_{B}, r_{C} \xleftarrow{\$} \mathbb{F}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontSize=14;fontColor=#000000;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="335.74" y="488.5" width="129.36" height="38" as="geometry" />
+        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-17" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 2;fillColor=#F6F6F6;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="53" y="446" width="477" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-25" value="" style="group" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1" connectable="0">
-          <mxGeometry x="63.870000000000005" y="537" width="120.94" height="80" as="geometry" />
+          <mxGeometry x="92.13" y="442" width="120.94" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-26" value="&lt;u&gt;Sumcheck Claim&lt;/u&gt;:" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OdxLZ-nGeyKtRxEq7WDJ-25" vertex="1">
           <mxGeometry width="120" height="30" as="geometry" />
@@ -307,57 +165,45 @@
           <mxGeometry x="0.9399999999999977" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-31" value="&lt;u style=&quot;&quot;&gt;Sumcheck randomness&lt;/u&gt;:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="335.74" y="537" width="140" height="31" as="geometry" />
+          <mxGeometry x="364" y="442" width="140" height="31" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-32" value="$$\vec{r}_{y} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontSize=14;fontColor=#FF00FF;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="345" y="565" width="70" height="22" as="geometry" />
+          <mxGeometry x="373.26" y="470" width="70" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="oSFA6BFc6vbs22aihNRj-4" value="$$v_A \stackrel{?}{=} \overline{A}({\color{blue} \vec{r}_\Sigma}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{A}({\color{blue} \vec{r}_\Sigma}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="144.99" y="40" width="230" height="40" as="geometry" />
+        <mxCell id="ytJe0NacO-bOWAJyC7d8-0" value="&lt;font&gt;Batched Claim: &lt;font style=&quot;font-size: 13px;&quot;&gt;$$\forall \alpha, \beta, \gamma \in \mathbb{F}: \quad V(\alpha, \beta, \gamma) \stackrel{?}{=} \sum_{\vec{y} \in \{0,1\}^s} M_{\color{blue} \vec{r}_\Sigma}( \vec{y}; \alpha, \beta, \gamma)\cdot {\color{red} \widetilde{w}}(\vec{y})$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="82" y="249" width="420" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8eZTkxstVUIx3eWXwxoT-1" value="$$v_B \stackrel{?}{=} \overline{B}({\color{blue} \vec{r}_\Sigma}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{B}({\color{blue} \vec{r}_\Sigma}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="144.99" y="90" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8eZTkxstVUIx3eWXwxoT-2" value="$$v_C \stackrel{?}{=} \overline{C}({\color{blue} \vec{r}_\Sigma}) := \sum_{\vec{y} \in \{0,1\}^s} \widetilde{C}({\color{blue} \vec{r}_\Sigma}, \vec{y})\cdot {\color{red} \widetilde{w}}(\vec{y})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="144.99" y="140" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8eZTkxstVUIx3eWXwxoT-3" value="Validate Claims:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="144.99" y="10" width="230" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ytJe0NacO-bOWAJyC7d8-0" value="&lt;font&gt;Batched Claim: &lt;font&gt;$$\forall \alpha, \beta, \gamma \in \mathbb{F}: V(\alpha, \beta, \gamma) = \sum_{\vec{y} \in \{0,1\}^s} M_{\color{blue} \vec{r}_\Sigma}( \vec{y}; \alpha, \beta, \gamma)\cdot {\color{red} \widetilde{w}}(\vec{y})$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="78.99" y="352" width="360" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pqNpDsz5k5nvkog55Zkt-1" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
+        <mxCell id="pqNpDsz5k5nvkog55Zkt-1" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="193" y="820" as="sourcePoint" />
-            <mxPoint x="193.44" y="480" as="targetPoint" />
+            <mxPoint x="218" y="545" as="sourcePoint" />
+            <mxPoint x="218" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqNpDsz5k5nvkog55Zkt-2" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
+        <mxCell id="pqNpDsz5k5nvkog55Zkt-2" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="329" y="820" as="sourcePoint" />
-            <mxPoint x="329.18000000000006" y="480" as="targetPoint" />
+            <mxPoint x="358" y="545" as="sourcePoint" />
+            <mxPoint x="358" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pqNpDsz5k5nvkog55Zkt-3" value="$$\mathcal{P}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="162.18" y="450" width="60" height="30" as="geometry" />
+          <mxGeometry x="190.44" y="355" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pqNpDsz5k5nvkog55Zkt-4" value="$$\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="296.9700000000001" y="447" width="60" height="30" as="geometry" />
+          <mxGeometry x="325.2300000000001" y="352" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-19" value="$$r_{A},r_{B},r_{C}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="190" y="488.5" width="139.63" height="20" as="geometry" />
+          <mxGeometry x="218.26" y="380.5" width="139.63" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-20" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="194.52" y="510" as="sourcePoint" />
-            <mxPoint x="330" y="510" as="targetPoint" />
+            <mxPoint x="218.26" y="402" as="sourcePoint" />
+            <mxPoint x="358.26" y="402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;width=15;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="190.21" y="575.73" as="sourcePoint" />
-            <mxPoint x="330" y="576" as="targetPoint" />
+            <mxPoint x="218.26" y="480.73" as="sourcePoint" />
+            <mxPoint x="358.26" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-22" value="Sumcheck-2" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="OdxLZ-nGeyKtRxEq7WDJ-21" vertex="1" connectable="0">
@@ -365,65 +211,199 @@
             <mxPoint x="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="auM3KEui8X-5-19anhzQ-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; text-wrap-mode: nowrap;&quot;&gt;$$V := V(r_A, r_B, r_C)$$&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;verticalAlign=middle;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="42.97" y="472" width="132.39" height="30" as="geometry" />
+        <mxCell id="auM3KEui8X-5-19anhzQ-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; text-wrap-mode: nowrap;&quot;&gt;$$V = V(r_A, r_B, r_C)$$&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;verticalAlign=middle;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="71.64999999999999" y="407" width="132.39" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="auM3KEui8X-5-19anhzQ-4" value="$$ M_{\color{blue}\vec{r}_\Sigma}(\vec{y}) := M_{\color{blue}\vec{r}_\Sigma}(y, r_A, r_B, r_C) $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="10" y="489.5" width="176.81" height="50.5" as="geometry" />
+        <mxCell id="auM3KEui8X-5-19anhzQ-4" value="$$ M_{\color{blue}\vec{r}_\Sigma}(\vec{y}) := M_{\color{blue}\vec{r}_\Sigma}(\vec{y}, r_A, r_B, r_C) $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="36.25999999999999" y="374" width="176.81" height="50.5" as="geometry" />
         </mxCell>
-        <mxCell id="fgosDkV9AowyxNdGCo60-1" value="Unverified claims after Sumcheck-1: $$v_A = \overline{A}({\color{blue}\vec{r}_\Sigma})\; v_B = \overline{B}({\color{blue}\vec{r}_\Sigma})\; v_C = \overline{C}({\color{blue}\vec{r}_\Sigma})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;fontColor=#333333;strokeColor=#FF0000;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="78.99" y="190" width="360" height="80" as="geometry" />
+        <mxCell id="fgosDkV9AowyxNdGCo60-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;Unverified claims after Sumcheck-1&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;: &lt;font style=&quot;font-size: 14px;&quot;&gt;$$v_A \stackrel{?}{=} \overline{A}({\color{blue}\vec{r}_\Sigma})\quad v_B \stackrel{?}{=}&amp;nbsp;\overline{B}({\color{blue}\vec{r}_\Sigma})\quad v_C \stackrel{?}{=}&amp;nbsp;\overline{C}({\color{blue}\vec{r}_\Sigma})$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeWidth=2;shadow=1;fillColor=#CCFFCC;strokeColor=#009900;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="80" y="22" width="440" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-29" value="$$ M_{{\color{blue}\vec{r}_\Sigma}}({\color{Magenta} \vec{y}}; \alpha, \beta, \gamma) := \left [\alpha\cdot \widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) + \beta\cdot \widetilde{B}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) + \gamma\cdot \widetilde{C}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) \right] \cdot {\color{red}\widetilde{w}}({\color{Magenta}\vec{y}}) $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=top;align=center;fillColor=none;strokeColor=none;spacing=-12;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="59.989999999999995" y="282" width="400" height="70" as="geometry" />
+        <mxCell id="kW-xBeR8YmgQcp4Fcj6y-0" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Last round claim&lt;/b&gt;&lt;/u&gt;:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="220" y="516" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-30" value="$$ V(\alpha, \beta, \gamma) := \alpha \cdot v_A&amp;nbsp; + \beta \cdot v_B + \gamma \cdot v_C $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
-          <mxGeometry x="84.99" y="305" width="298.13" height="30" as="geometry" />
+        <mxCell id="kW-xBeR8YmgQcp4Fcj6y-1" value="$$M := M_{\color{blue}\vec{r}_{\Sigma}}( {\color{Magenta}\vec{r}_{y}}) \stackrel{?}{=} \left [r_A \cdot \widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) + r_B\cdot\widetilde{B}({\color{blue} \vec{r}_\Sigma, \color{red}\vec{r}_y}) + r_C\cdot\widetilde{C}({\color{blue} \vec{r}_\Sigma, \color{red}\vec{r}_y}) \right ] \cdot&amp;nbsp; {\color{red} \widetilde{w}}({\color{Magenta}\vec{r}_{y}}) $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="60" y="540" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kW-xBeR8YmgQcp4Fcj6y-0" value="&lt;u&gt;&lt;b&gt;Last round check&lt;/b&gt;&lt;/u&gt;:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="332.74" y="611" width="148.26" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="kW-xBeR8YmgQcp4Fcj6y-1" value="$$M_{\color{blue}\vec{r}_{\Sigma}}( {\color{Magenta}\vec{r}_{y}}) \stackrel{?}{=} \left [r_A \cdot \widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) \right. + $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="340" y="630" width="157.61" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kW-xBeR8YmgQcp4Fcj6y-2" value="$$ \left.r_B \cdot\widetilde{B}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) + r_C\cdot\widetilde{C}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}})\right]\cdot {\color{red}\widetilde{w}}({\color{Magenta}\vec{r}_{y}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="346" y="654" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uZxVogzGvGEyPYxT3dh9-1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;" edge="1" parent="oSFA6BFc6vbs22aihNRj-1">
+        <mxCell id="uZxVogzGvGEyPYxT3dh9-1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="193.1" y="716.5" as="sourcePoint" />
-            <mxPoint x="328.58" y="716.5" as="targetPoint" />
+            <mxPoint x="220.23" y="631.5" as="sourcePoint" />
+            <mxPoint x="355.71" y="631.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-1" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;startArrow=none;startFill=0;" edge="1" parent="oSFA6BFc6vbs22aihNRj-1">
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-1" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;startArrow=none;startFill=0;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="192.73000000000002" y="765" as="sourcePoint" />
-            <mxPoint x="328.21" y="765" as="targetPoint" />
+            <mxPoint x="219.86" y="680" as="sourcePoint" />
+            <mxPoint x="355.34" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-2" value="$$(\widetilde{v}_A, \pi_A), (\widetilde{v}_B, \pi_B), $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="190.18" y="745" width="139.63" height="20" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-2" value="$$(\hat{v}_A, \pi_A), (\hat{v}_B, \pi_B), $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="217.31" y="660" width="139.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-3" value="$$(\widetilde{v}_C, \pi_C), (\widetilde{v}_{\color{red}w}, \pi_{\color{red}w})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="190.17000000000002" y="765" width="139.63" height="20" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-3" value="$$\hat{v}_C, \pi_C), (\hat{v}_{\color{red}w}, \pi_{\color{red}w})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="217.3" y="680" width="139.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-6" value="$$\begin{aligned}\widetilde{v}_A, \pi_A &amp;amp;\leftarrow \textsf{eval}[\widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}})] \\ \widetilde{v}_B, \pi_B &amp;amp;\leftarrow \textsf{eval}[\widetilde{B}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) ] \\ \widetilde{v}_C, \pi_C &amp;amp;\leftarrow \textsf{eval}[\widetilde{C}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) ] \\ \widetilde{v}_{\color{red}w}, \pi_{\color{red}w}&amp;nbsp;&amp;amp;\leftarrow \textsf{eval}[{\color{red}\widetilde{w}}( {\color{Magenta}\vec{r}_{y}}) ]&amp;nbsp;\end{aligned}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="44.519999999999996" y="715" width="130.84" height="60" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-6" value="$$\begin{aligned}\hat{v}_A, \pi_A &amp;amp;\leftarrow \textsf{eval}[\widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}})] \\ \hat{v}_B, \pi_B &amp;amp;\leftarrow \textsf{eval}[\widetilde{B}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) ] \\ \hat{v}_C, \pi_C &amp;amp;\leftarrow \textsf{eval}[\widetilde{C}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta}\vec{r}_{y}}) ] \\ \hat{v}_{\color{red}w}, \pi_{\color{red}w}&amp;nbsp;&amp;amp;\leftarrow \textsf{eval}[{\color{red}\widetilde{w}}( {\color{Magenta}\vec{r}_{y}}) ]&amp;nbsp;\end{aligned}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="71.64999999999999" y="630" width="130.84" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-10" value="" style="group" vertex="1" connectable="0" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="332.74" y="690" width="213" height="61" as="geometry" />
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-12" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;PCS Validate&lt;/u&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;: $$ \forall i \in \{ A,B,C, {\color{red} w}\} :$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="359.87" y="666" width="190.19" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-8" value="$$M_{\color{blue}\vec{r}_\Sigma}({\color{Magenta}\vec{r}_y}) \stackrel{?}{=}&amp;nbsp; \widetilde{v}_{\color{red}w} \cdot \left[r_A\cdot \widetilde{v}_A + r_B\cdot \widetilde{v}_B \right.$$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;" vertex="1" parent="cjCeMUFoad6AwyRsz8XK-10">
-          <mxGeometry x="9.26" width="190" height="45" as="geometry" />
+        <mxCell id="RDw4yG_MpPgdLXXt63db-1" value="" style="group" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1" connectable="0">
+          <mxGeometry x="80.00000000000003" y="-388" width="476.58" height="377" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-9" value="$$ + \left. r_C\cdot \widetilde{v}_C \right]$$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cjCeMUFoad6AwyRsz8XK-10">
-          <mxGeometry x="151" y="21" width="70" height="40" as="geometry" />
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-18" value="" style="group" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1" connectable="0">
+          <mxGeometry x="103.77000000000001" y="79" width="232.63" height="298" as="geometry" />
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-11" value="&lt;b&gt;&lt;u&gt;Check&lt;/u&gt;&lt;/b&gt;:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cjCeMUFoad6AwyRsz8XK-10">
-          <mxGeometry y="-6" width="210" height="30" as="geometry" />
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-19" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;shadow=1;" parent="l6Ebbb3D5H9kVI8UUfA7-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="31.25999999999999" y="298" as="sourcePoint" />
+            <mxPoint x="31.25999999999999" y="30" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cjCeMUFoad6AwyRsz8XK-12" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;PCS Validate&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;: $$ \forall i \in \{ A,B,C, {\color{red} w}\} : \textsf{validate}(\widetilde{v}_i, \pi_i)$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oSFA6BFc6vbs22aihNRj-1">
-          <mxGeometry x="332.74" y="751" width="190.19" height="50" as="geometry" />
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-20" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#fa6800;shadow=1;" parent="l6Ebbb3D5H9kVI8UUfA7-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="298" as="sourcePoint" />
+            <mxPoint x="197" y="30.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-21" value="$$\mathcal{P}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="l6Ebbb3D5H9kVI8UUfA7-18" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-22" value="$$\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="l6Ebbb3D5H9kVI8UUfA7-18" vertex="1">
+          <mxGeometry x="167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFpl4Ol42Z5HZcoc-qUV-0" value="" style="group;fillColor=none;strokeColor=none;" parent="l6Ebbb3D5H9kVI8UUfA7-18" vertex="1" connectable="0">
+          <mxGeometry x="30" y="145" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFpl4Ol42Z5HZcoc-qUV-1" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Last round claim&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vFpl4Ol42Z5HZcoc-qUV-0" vertex="1">
+          <mxGeometry width="166.49484536082474" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vFpl4Ol42Z5HZcoc-qUV-2" value="$$G \stackrel{?}{=} \hat{f}({\color{blue}\vec{r}_{\Sigma}})\cdot \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vFpl4Ol42Z5HZcoc-qUV-0" vertex="1">
+          <mxGeometry x="3.5051546391752573" y="20" width="166.49484536082474" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-17" value="$$G \stackrel{?}{=} (v_A \cdot v_B - v_C)\cdot E$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="l6Ebbb3D5H9kVI8UUfA7-18" vertex="1">
+          <mxGeometry x="33" y="255" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-16" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Last round check&lt;/b&gt;&lt;/u&gt;:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="l6Ebbb3D5H9kVI8UUfA7-18" vertex="1">
+          <mxGeometry x="30" y="233" width="168" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-0" value="$$\vec{r}_\tau$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="139.03" y="140" width="160" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-1" value="&lt;font&gt;Claim: &lt;font style=&quot;font-size: 16px;&quot;&gt;$$\forall \vec{\tau} \in \mathbb{F}^s : \mathcal{Q}(\vec{\tau}) = 0$$&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#ffff88;strokeColor=#0000FF;strokeWidth=1;shadow=1;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="117.27000000000001" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-2" value="$$\vec{r}_{\tau} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3399;fontSize=14;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="307.03" y="119" width="68.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=0;startArrow=blockThin;startFill=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="RDw4yG_MpPgdLXXt63db-1" target="l6Ebbb3D5H9kVI8UUfA7-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136.27" y="161" as="sourcePoint" />
+            <mxPoint x="329.27" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-4" value="&lt;u&gt;Sumcheck Claim&lt;/u&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$0 = \sum_{\vec{x} \in \{ 0,1\}^s} \mathcal{G}(\vec{x}, {\color{Magenta} \vec{r}_\tau})$$&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="-2.479999999999989" y="168" width="119.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;width=15;" parent="RDw4yG_MpPgdLXXt63db-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="135.27" y="218.74" as="sourcePoint" />
+            <mxPoint x="302.03" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-6" value="Sumcheck-1" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="l6Ebbb3D5H9kVI8UUfA7-5" vertex="1" connectable="0">
+          <mxGeometry x="0.2776" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-7" value="" style="group" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1" connectable="0">
+          <mxGeometry x="300.77" y="179" width="140" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-8" value="&lt;u style=&quot;&quot;&gt;Sumcheck randomness&lt;/u&gt;:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="l6Ebbb3D5H9kVI8UUfA7-7" vertex="1">
+          <mxGeometry width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-9" value="$$\vec{r}_{\Sigma} \xleftarrow{\$} \mathbb{F}^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontSize=14;fontColor=#0000FF;" parent="l6Ebbb3D5H9kVI8UUfA7-7" vertex="1">
+          <mxGeometry x="10.5" y="26" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-10" value="$$\textsf{commit}(\widetilde{A}, \widetilde{B},&amp;nbsp;\widetilde{C}, {\color{red}{\widetilde{w}}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="139.03" y="109" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-11" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="RDw4yG_MpPgdLXXt63db-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135.77" y="130" as="sourcePoint" />
+            <mxPoint x="299.03" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-12" value="Compute:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry y="262" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-13" value="$$\begin{aligned}v_A &amp;amp;= \overline{A}({\color{blue}\vec{r}_\Sigma})\\ v_B &amp;amp;= \overline{B}({\color{blue}\vec{r}_\Sigma})\\v_C &amp;amp;= \overline{C}({\color{blue}\vec{r}_\Sigma})&amp;nbsp;\end{aligned}$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="36.019999999999996" y="285" width="81" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-14" value="$$v_{A},v_{B},v_{C}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="136.71" y="288" width="162.32" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l6Ebbb3D5H9kVI8UUfA7-15" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;" parent="RDw4yG_MpPgdLXXt63db-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="133.34" y="308" as="sourcePoint" />
+            <mxPoint x="299.03" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6I_JS-pSlTDarzNdeziW-0" value="Locally compute: $$E = \mathsf{eq}( {\color{blue}\vec{r}_{\Sigma}}, {\color{Magenta}\vec{r}_{\tau}})$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RDw4yG_MpPgdLXXt63db-1" vertex="1">
+          <mxGeometry x="299.03" y="300" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="idj6P5NVFsPz2r3MzwVc-0" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\text{Let } G := \mathcal{G}({\color{blue} \vec{r}_\Sigma}, {\color{Magenta} \vec{r}_\tau})$$&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RDw4yG_MpPgdLXXt63db-1">
+          <mxGeometry x="-2.842170943040401e-14" y="233" width="119.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="byrr9xccZ4bH2mhFhSLd-0" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="750" as="sourcePoint" />
+            <mxPoint x="218" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byrr9xccZ4bH2mhFhSLd-1" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=5;strokeColor=#000000;curved=0;fillColor=#eeeeee;shadow=1;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="358" y="750" as="sourcePoint" />
+            <mxPoint x="358" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_tM4x-iflCSgt5rqHt--2" value="$$\textsf{validate}(v_i, \pi_i)$$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="391.87" y="692" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-11" value="&lt;b&gt;&lt;u&gt;Final Validation&lt;/u&gt;:&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="220.53" y="732" width="139.47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cjCeMUFoad6AwyRsz8XK-8" value="$$\textsf{accept}\;\text{if}\;: M_{\color{blue}\vec{r}_\Sigma}({\color{Magenta}\vec{r}_y}) {} =&amp;nbsp; \hat{v}_{\color{red}w} \cdot \left[r_A\cdot \hat{v}_A + r_B\cdot \hat{v}_B&amp;nbsp; +&amp;nbsp; r_C\cdot \hat{v}_C \right] $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;align=center;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="120" y="749" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-ThFdD02bQJBgKESkfbN-0" value="&lt;span style=&quot;color: rgb(0, 0, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Polynomial Commitment&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="220.53" y="705" width="139.47" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SldCvbOqgGh-vdUJ9a23-0" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;fillColor=#647687;strokeColor=#000000;endFill=1;startArrow=none;startFill=0;" parent="oSFA6BFc6vbs22aihNRj-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216.34" y="435.33" as="sourcePoint" />
+            <mxPoint x="356.34000000000003" y="435.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SldCvbOqgGh-vdUJ9a23-1" value="$$V$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="218.26" y="417" width="139.63" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SldCvbOqgGh-vdUJ9a23-2" value="" style="group" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1" connectable="0">
+          <mxGeometry x="366" y="374" width="130.36" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-23" value="&lt;u style=&quot;&quot;&gt;Batching randomness&lt;/u&gt;:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontColor=#000000;" parent="SldCvbOqgGh-vdUJ9a23-2" vertex="1">
+          <mxGeometry width="130.36" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-24" value="$$r_{A}, r_{B}, r_{C} \xleftarrow{\$} \mathbb{F}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=1;fontSize=14;fontColor=#000000;" parent="SldCvbOqgGh-vdUJ9a23-2" vertex="1">
+          <mxGeometry x="1" y="13" width="129.36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-29" value="&lt;b&gt;&lt;u&gt;Define&lt;/u&gt;&lt;/b&gt;:&amp;nbsp;$$M_{{\color{blue}\vec{r}_\Sigma}}({\color{Magenta} \vec{y}}; \alpha, \beta, \gamma) := \left [\alpha\cdot \widetilde{A}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) + \beta\cdot \widetilde{B}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) + \gamma\cdot \widetilde{C}({\color{blue}\vec{r}_\Sigma}, {\color{Magenta} \vec{y}}) \right] \cdot {\color{red}\widetilde{w}}({\color{Magenta}\vec{y}}) $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=top;align=center;fillColor=none;strokeColor=none;spacing=-12;flipV=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="80" y="116" width="440" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="OdxLZ-nGeyKtRxEq7WDJ-30" value="$$ V(\alpha, \beta, \gamma) := \alpha \cdot v_A&amp;nbsp; + \beta \cdot v_B + \gamma \cdot v_C $$" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;flipV=1;" parent="oSFA6BFc6vbs22aihNRj-1" vertex="1">
+          <mxGeometry x="125" y="156" width="283" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
